@@ -23,7 +23,7 @@ describe('testing the data fetched from poker.txt',()=>{
     });
   });
   it('should have all data from poker.txt',()=>{
-    expect(fileData.length).to.eq(1001);
+    expect(fileData.length).to.eq(1000);
   });
   it('should read the first data correctly',()=>{
     expect(fileData[0]).eq('8C TS KC 9H 4S 7D 2S 5D 3S AC','First record from poker.txt');
